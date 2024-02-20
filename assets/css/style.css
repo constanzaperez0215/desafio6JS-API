@@ -1,0 +1,58 @@
+*{
+    text-align: center;
+    margin: 0;
+}
+
+#body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinea el contenido horizontalmente al centro */
+    align-items: center;
+}
+
+hr{
+    color: rgb(87, 188, 239);
+    width: 600px;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.card{
+    width: 400px;
+    display: flex;
+    justify-content: center; /* Alinea el contenido horizontalmente al centro */
+    align-items: center;
+}
+
+.card-title{
+    font-size: 25px;
+}
+
+#pesos{
+    width: 200px;
+    height: 30px;
+}
+
+.card-text{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#selecciona{
+    width: 200px;
+    height: 35px;
+}
+
+.result{
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    background-color: rgb(87, 188, 239);
+}
