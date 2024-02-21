@@ -6,7 +6,7 @@
 #body{
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Alinea el contenido horizontalmente al centro */
+    justify-content: center;
     align-items: center;
 }
 
@@ -22,8 +22,9 @@ h1{
 .card{
     width: 400px;
     display: flex;
-    justify-content: center; /* Alinea el contenido horizontalmente al centro */
+    justify-content: center;
     align-items: center;
+    background-color: rgb(188, 188, 188);
 }
 
 .card-title{
@@ -55,4 +56,8 @@ h1{
     margin-bottom: 10px;
     width: 200px;
     background-color: rgb(87, 188, 239);
+}
+
+#myChart{
+    margin: 10px;
 }

@@ -11,29 +11,40 @@
     <!-- Css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <title>Conversor de Moneda</title>
 </head>
+
 <body id="body" class="badge bg-dark">
     <h1>Conversor de moneda Nacional</h1>
     <hr>
-    <div class="card bg-secondary">
+
+    <div class="card">
         <div class="card-body">
         <h5 class="card-title">Pesos CLP</h5>
-        <input id="pesos" type="number">
+        <input placeholder="Ingrese monto en CLP" id="pesos" type="number">
         <p class="card-text">Moneda a convertir</p>
-        <select id="selecciona" class="form-select" aria-label="Default select example">
-            <option selected>Selecciona una moneda</option>
-            <option value="1">Dolar</option>
-            <option value="2">Euro</option>
-            <option value="3">UF</option>
+        <select id="tipoMoneda" class="form-select" >
+            <option disabled selected>Seleccionar moneda</option>
+            <option value="dolar">Dolar</option>
+            <option value="euro">Euro</option>
+            <option value="uf">UF</option>
           </select>
         <button id="btnBuscar" class="btn btn-primary opacity-80">Buscar</button>
         <p class="result">Resultado: <span id="resultado"></span></p>
         </div>
+        <div id="grafica">
+            <canvas id="myChart"></canvas>
+        </div>
+
     </div>
-    <div id="grafica">
-        <canvas id="myChart"></canvas>
-    </div>
+
+
+   
+
+    
+    <script src="assets/js/script.js"></script>
 
 </body>
 </html>
